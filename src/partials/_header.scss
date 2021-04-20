@@ -1,0 +1,47 @@
+// NAV FIX
+.nav_fix {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    @include flex-row;
+    @include container_80;
+    height: 50px;
+    border-bottom: 1px solid $primaryColor;
+    .logo {
+        width: 90px;
+    }
+}
+
+.nav_links {
+    li {
+        display: inline;
+        margin-right: 10px;
+        button {
+            padding: 5px 5px 7px;
+            background-color: white;
+            border: 1px solid $secondaryColor;
+            color: $secondaryColor;
+            border-radius: 6px;
+        }
+    }
+}
+
+// JUMBOTRON
+#jumbotron {
+    margin: 51px auto 0;
+    padding: 40px 0;
+    width: 80%;
+    @include clearfix;
+}
+
+.text_jumbo {
+    width: 52%;
+    float: left;
+    line-height: 40px;
+}
+
+.img_jumb {
+    float: left;
+    width: 48%;
+}

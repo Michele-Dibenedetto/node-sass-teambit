@@ -1,0 +1,26 @@
+button {
+    img {
+        width: 15px;
+        vertical-align: middle;
+    }
+}
+
+.double_button {
+    margin-top: 20px;
+    p {
+        display: inline;
+    }
+}
+
+.p_small {
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+.btn {
+    padding: 6px;
+    background-color: $secondaryColor;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}

@@ -1,0 +1,16 @@
+@mixin flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin container_80 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+@mixin clearfix {
+    display: table;
+    content: '';
+    clear: both;
+}

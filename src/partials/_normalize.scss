@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h2,
+h3,
+p,
+li a,
+i {
+    color: $primaryColor;
+}
+
+a {
+    color: $secondaryColor;
+    text-decoration: none;
+}
+
+li {
+    a {
+        font-weight: 600;
+    }
+}
+
+p {
+    font-weight: 500;
+}
+
+ul {
+    list-style: none;
+}
