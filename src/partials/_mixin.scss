@@ -3,6 +3,11 @@
     justify-content: space-between;
     align-items: center;
 }
+@mixin flex_row_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
 
 @mixin container_80 {
     width: 80%;
