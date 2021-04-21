@@ -8,9 +8,10 @@ footer {
     @include flex_row_top;
     width: 25%;
     img {
-        width: 50px;
+        width: 100px;
         margin-right: 10px;
         flex-shrink: 0;
+        align-self: center;
     }
     p {
         font-weight: 600;
