@@ -1,0 +1,82 @@
+@media screen and (max-width:767px) {
+    // HEADER
+    // NAV FIX
+    .menu {
+        display: inline;
+    }
+
+    .nav_links {
+        display: none;
+    }
+
+    // JUMBOTRON
+    #jumbotron {
+        text-align: center;
+    }
+
+    .text_jumbo {
+        float: none;
+        width: 65%;
+        margin: 0 auto;
+    }
+
+    .img_jumb {
+        float: none;
+        width: 100%;
+    }
+    // FINE HEADER
+
+    // MAIN
+    // BENEFIT
+    .container_block {
+        flex-wrap: wrap;
+        .block {
+            width: 100%;
+            margin-bottom: 80px;
+        }
+    }
+
+    .img_rabbit {
+        margin-top: 0;
+    }
+
+    // HELP
+    .help_block {
+        display: block;
+        img {
+            width: 100%;
+        }
+        .text_help_block {
+            text-align: center;
+            width: 100%;
+            img {
+                height: 400px;
+            }
+        }
+    }
+    // FINE MAIN
+
+    // FOOTER
+    footer {
+        display: block;
+    }
+
+    .text_foot {
+        width: 65%;
+        margin: 0 auto 30px;
+        img {
+            width: 150px;
+        }
+    }
+
+    .foot_links {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .list_foot_links {
+        width: calc(100% / 3);
+        margin-bottom: 30px;
+    }
+
+}
